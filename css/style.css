@@ -1,0 +1,97 @@
+
+* {box-sizing: border-box;}
+
+body {
+  background:linear-gradient(90deg, #4ecdc4 0%,#556270 100% );
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calc {
+  background:linear-gradient(90deg, #000000 0%,#434343 100% );
+  display: inline-block;
+  width: 250px;
+  height: 310px;
+  text-align: center;
+  border-radius: 5%;
+
+  box-shadow: 20px 20px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  background:linear-gradient(90deg, #667eea 0%,#764ba2 100% );
+  display: inline-block;
+  border-radius: 10px;
+  margin: 5px;
+  width: 95%;
+  height: 60px;
+  text-align: left;
+  padding: 5px;
+}
+
+.keyboard {
+  display: inline-block;
+  width: 95%;
+  height: 200px;
+}
+
+p {
+  font-weight: bold;
+  color: antiquewhite;
+  font-size: 23px;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: inline-block;
+  width: 30%;
+  height: 20%;
+  margin-top: 5px;
+  font-weight: bold;
+  background-color: #151515;
+  color: white;
+  font-size: larger;
+  border-radius: 15px;
+}
+
+#command-sum {
+  background:linear-gradient(90deg, #136a8a 0%,#267871 100% );
+  border-radius: 50%;
+  width: 18%;
+}
+#command-sub {
+  background:linear-gradient(90deg, #136a8a 0%,#267871 100% );
+  border-radius: 50%;
+  width: 18%;
+}
+#command-mult {
+  background:linear-gradient(90deg, #136a8a 0%,#267871 100% );
+  border-radius: 50%;
+  width: 18%;
+}
+#command-div {
+  background:linear-gradient(90deg, #136a8a 0%,#267871 100% );
+  border-radius: 50%;
+  width: 18%;
+}
+#command-eq {
+  border-radius: 50%;
+  width: 18%;
+  background-color: coral;
+}
+#command-virgula {
+  border-radius: 30%;
+  width: 18%;
+}
+#command-clear {
+  border-radius: 30%;
+  width: 18%;
+  background-color: coral;
+}
